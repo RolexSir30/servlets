@@ -9,8 +9,8 @@
 <body>
 <h1>Voici l'acceuil ! </h1>
 
-<p><a href="http://localhost:8080/Application/LogIn">Autentification </a></p>
-<p><a href="http://localhost:8080/Application/SignIn">Inscription </a></p>
+<p><a href="http://localhost:8089/Application/Authentification">Autentification </a></p>
+<p><a href="http://localhost:8089/Application/Inscription">Inscription </a></p>
 
 </body>
 </html>
