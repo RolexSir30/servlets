@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form method="post" action="http://localhost:8080/Application/Loginservlet">
+<form method="post" action="Loginservlet">
 <p>
 <label>Nom d'utilisateur</label>
 <input type="text" id ="name" name="name"></input>

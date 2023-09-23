@@ -48,16 +48,17 @@ public class Loginservlet extends HttpServlet {
 
 		String name=request.getParameter("name");
 		String mdp=request.getParameter("password");
+		String url = null;
 
 		if(name.equals("J2EE")&mdp.equals("J2EE")) {
 			this.getServletContext().getRequestDispatcher("/WEB-INF/FormulaireURL.jsp").forward(request, response);
 
-			String url=request.getParameter("url");
-			response.sendRedirect(url);
+		url=request.getParameter("url");
 		}else {
 			out.println("Erreur de connection ! ");
 		}
-				
+		//response.sendRedirect(url);
+	
 		
 	}
 
